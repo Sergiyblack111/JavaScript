@@ -1,0 +1,18 @@
+
+.post {
+    background: coral;
+}
+
+.comments {
+    background: #7eb6bf;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comments > div {
+    width: 130px;
+    background: blanchedalmond;
+    margin: 5px;
+    padding: 3px;
+}
