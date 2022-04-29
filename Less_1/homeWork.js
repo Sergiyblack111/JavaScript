@@ -53,10 +53,6 @@ alert(lie);*/
 //document.write(hello,' ', owu, ' ', com, ' ', ua, ' ', one, ' ', ten, ' ', numberMinus999, ' ',
 //number123, ' ', pi, ' ', two_seven, ' ', sixteen, ' ', truvalue, ' ', lie);
 
-
-
-
-
 /*  - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ.
       З'єднати їх в одну змінну person. (Не об'єкт)*/
 // let firstName = 'Сергій';
