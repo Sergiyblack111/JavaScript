@@ -136,6 +136,64 @@ document.write(`площа циліндра: ${sCylindre}`);*/
 //
 // createDivArray(list);
 
+//створити функцію яка повертає найменше число з масиву
+// function minNumberReturn(a, b, c) {
+//
+//     let min
+//
+//     if (a < b && a < c) {
+//         min = a
+//     } else if (b < a && b < c) {
+//         min = b
+//     } else if (c < a && c < b) {
+//         min = c
+//     }
+//
+//     return min;
+// }
+//
+// console.log(minNumberReturn(3, 2, 1));
+
+//створити функцію яка повертає найбільше число з масиву
+// function maxNumberReturn(a, b, c) {
+//
+//     let max
+//
+//     if (a > b && a > c ) {
+//         max = a
+//     } else if (b > a && b > c) {
+//         max = b
+//     } else if (c > a && c > b) {
+//         max = c
+//     }
+//      return max;
+// }
+//
+// console.log(maxNumberReturn(1, 2, 3));
+
+//створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його.
+// Приклад [1,2,10]->13
+// let numbersArray = [1, 2, 10, 10];
+//
+// function sumArrayNumbers(array) {
+//     let sum = 0
+//
+//     for (let i = 0; i < array.length; i++) {
+//         // console.log('sum = ',sum)
+//         // console.log('i = ',i)
+//         // console.log('array i = ', array[i])
+//         // console.log('*****')
+//         sum = sum + array[i];
+//     }
+//
+//     // document.write(`${sum}`);
+//
+//     return sum;
+// }
+//
+// console.log(sumArrayNumbers(numbersArray));
+
+
 //23:21 - 25:48
 // function msg(txt) {
 //     document.write(`<h1> ${txt} </h1>`);
