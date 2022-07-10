@@ -151,7 +151,7 @@
 // console.log(name); //vasya
 // console.log(wife);
 // console.log(wifeName); //olya
-//console.log(imya);
+// console.log(imya);
 
 // let u = {name: 'vasya', age: 31, status: true, id:1, wife: {name: 'Olya'}};
 //

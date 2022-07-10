@@ -17,11 +17,17 @@ contentById.innerHTML = '<b>TEST TEST TEST Lorem ipson beauty today</b>'
 rulesById.innerHTML = '<h1>Декілька правил виконання ДЗ в OKTEN SCHOOL</h1>'
 
 //-- змініть кожному елементу колір фону на червоний
-//let childrenBackground = document.body.children;
-let childrenBackground = document.body.getElementsByTagName('li');
-for (const elem of childrenBackground) {
-  elem.style.backgroundColor = 'red';
-}
+// таким чином задаємо колір для всіх елементів (чілдренів які є в боді)
+/*let childrenBackground = document.body.children;
+for (const element of childrenBackground) {
+  element.style.backgroundColor = 'red';
+}*/
+
+// або нижче- колір задаємо тільки для певних елементів - у цьому випадку nskmrb для - li
+/*let childrenBackground = document.body.getElementsByTagName('li');
+for (const element of childrenBackground) {
+  element.style.backgroundColor = 'red';
+}*/
 
 //-- змініть кожному елементу колір тексту на синій
 let childrenTextColor = document.body.children;
