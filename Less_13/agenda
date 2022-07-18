@@ -1,2 +1,3 @@
- call apply bind  proto ?
+ call apply bind  proto
+ promise
  try
